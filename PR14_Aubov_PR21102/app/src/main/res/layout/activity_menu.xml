@@ -12,7 +12,10 @@
         android:layout_marginTop="30dp"
         android:background="@color/text_grey"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="3dp"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -23,6 +26,9 @@
         android:backgroundTint="@color/bg_ocher"
         android:scaleType="centerCrop"
         android:src="@drawable/menu"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="3dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -47,6 +53,9 @@
         android:onClick="GoToExercise"
         android:text="Упражнения"
         android:textColor="@color/text_blue"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="3dp"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
@@ -60,6 +69,9 @@
         android:backgroundTint="@color/bg_blue"
         android:drawableTop="@drawable/free_icon_trainer_5075726"
         android:text="Помощь тренера"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="3dp"
         android:textColor="@color/text_blue"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toEndOf="@+id/button4"
@@ -70,12 +82,15 @@
         android:layout_width="176dp"
         android:layout_height="149dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@color/bg_blue"
         android:drawableTop="@drawable/free_icon_coworking_1965701"
+        android:elevation="5dp"
         android:paddingTop="30dp"
+        android:stateListAnimator="@null"
         android:text="Советы"
         android:textColor="@color/text_blue"
+        android:translationZ="3dp"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
@@ -92,6 +107,9 @@
         android:paddingTop="100dp"
         android:paddingBottom="70dp"
         android:text="Статистика"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="3dp"
         android:textColor="@color/text_blue"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="parent"

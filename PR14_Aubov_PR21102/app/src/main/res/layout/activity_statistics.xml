@@ -39,7 +39,10 @@
                 android:layout_height="3dp"
                 android:layout_marginTop="30dp"
                 android:background="@color/text_grey"
-                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:elevation="10dp"
+                android:stateListAnimator="@null"
+                android:translationZ="5dp"/>
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -50,6 +53,9 @@
                 android:backgroundTint="@color/bg_ocher"
                 android:scaleType="centerCrop"
                 android:src="@drawable/menu"
+                android:elevation="5dp"
+                android:stateListAnimator="@null"
+                android:translationZ="3dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -78,7 +84,10 @@
                 android:layout_height="5dp"
                 android:layout_marginTop="30dp"
                 android:background="@color/text_blue"
-                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:elevation="5dp"
+                android:stateListAnimator="@null"
+                android:translationZ="3dp"/>
 
             <TextView
                 android:id="@+id/textView7"
@@ -105,7 +114,10 @@
                 android:layout_height="5dp"
                 android:layout_marginTop="30dp"
                 android:background="@color/text_blue"
-                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:elevation="5dp"
+                android:stateListAnimator="@null"
+                android:translationZ="3dp"/>
 
             <TextView
                 android:id="@+id/textView11"
